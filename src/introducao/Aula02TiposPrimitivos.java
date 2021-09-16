@@ -9,7 +9,7 @@ public class Aula02TiposPrimitivos {
         byte idadeByte = 10;
         short idadeShort = 10;
         boolean verdadeiro = true;
-        boolean falso = falso;
+        boolean falso = false;
         char caractere = 'M';
     }
 }
