@@ -50,6 +50,12 @@ public class Aula04Operadores {
         contador --; //também tem no modo regressivo
         System.out.println(contador);
 
+        //a ordem do sinal define a ordem de execução do comando ex:
+        int contador2 = 0;
+        System.out.println(contador2 ++); // aqui primeiro ele vai imprimir e depois contar
+        System.out.println(contador2); // aqui vai mostrar o contador;
+        System.out.println(++ contador2); // aqui vai contar
+
         }
 
     }
