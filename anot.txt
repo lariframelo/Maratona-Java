@@ -9,3 +9,6 @@ public class Aula05EstruturasCondicionais3 {
        //(condição)? (se)verdadeiro : (se)falso
        //só funciona alocado em uma string
 	 System.out.println(salario > 5000 ? msgDoar : msgNDoar);
+
+
+//(array).langth = retorna o tamanho do array
