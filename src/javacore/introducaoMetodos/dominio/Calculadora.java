@@ -15,8 +15,10 @@ public class Calculadora {
     }
 
     public double divideDoisNumeros(double num1, double num2) {
-        double result;
-        result = num1/num2;
-        return result;
+        if (num2 == 0) {
+            return 0;
+        } else {
+            return num1 / num2;
+        }
     }
 }
